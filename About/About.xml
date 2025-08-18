@@ -16,5 +16,5 @@
 		<li>smartkar.athenaframework</li>
 	</loadAfter>
 	<packageId>det.voltweaponry</packageId>
-	<description>todo</description>
+	<description>This mod adds a large set of industrial laser beam weapons, that create beams of light through optical amplification. These can be wielded by raiders and made alongside normal gunpowder weapons.</description>
 </ModMetaData>

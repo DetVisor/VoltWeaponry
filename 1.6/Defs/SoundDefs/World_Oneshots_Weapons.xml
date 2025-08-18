@@ -10,7 +10,7 @@
             <clipPath>Things/WattSmash</clipPath>
           </li>
         </grains>      
-        <volumeRange>20.70588~32.70588</volumeRange>      
+        <volumeRange>16.70588~25.70588</volumeRange>     
         <distRange>24.11765~40</distRange>
         <pitchRange>0.9311765~1.2</pitchRange>   
       </li>    
@@ -38,7 +38,7 @@
             <clipPath>Things/WattSmash</clipPath>
           </li>
         </grains>      
-        <volumeRange>20.70588~32.70588</volumeRange>   
+        <volumeRange>16.70588~25.70588</volumeRange>   
         <distRange>24.11765~40</distRange>
         <pitchRange>0.9311765~1.2</pitchRange>   
       </li>
