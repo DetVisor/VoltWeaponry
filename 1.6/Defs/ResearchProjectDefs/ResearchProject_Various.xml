@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>DV_LensArrays</defName>
+    <label>lens arrays</label>
+    <description>Construct simple lens arrays to solidify photons into tight beams that burn flesh. Note that these need jade.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <hiddenPrerequisites>
+      <li>Machining</li>
+    </hiddenPrerequisites>
+    <researchViewX>8.00</researchViewX>
+    <researchViewY>5.40</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Volt Weaponry</name>
+	<author>DetVisor</author>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+		<li>brrainz.harmony</li>
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+		<li>smartkar.athenaframework</li>
+	</loadAfter>
+	<packageId>det.voltweaponry</packageId>
+	<description>todo</description>
+</ModMetaData>

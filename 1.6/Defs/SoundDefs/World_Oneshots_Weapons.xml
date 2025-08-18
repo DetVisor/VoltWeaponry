@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><Defs>
+<SoundDef>
+    <defName>DV_Shot_WattRifle</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/WattSmash</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>20.70588~32.70588</volumeRange>      
+        <distRange>24.11765~40</distRange>
+        <pitchRange>0.9311765~1.2</pitchRange>   
+      </li>    
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/LeverAction_Rack</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>30.58823~30.58823</volumeRange>      
+        <pitchRange>0.9311765~1.137647</pitchRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>DV_Shot_WattPistol</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/WattSmash</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>20.70588~32.70588</volumeRange>   
+        <distRange>24.11765~40</distRange>
+        <pitchRange>0.9311765~1.2</pitchRange>   
+      </li>
+    </subSounds>
+  </SoundDef>
+
+</Defs>

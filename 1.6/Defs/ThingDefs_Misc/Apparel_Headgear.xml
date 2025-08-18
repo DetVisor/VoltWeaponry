@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Name="DV_ApparelOutlawHelmetBase" ParentName="ArmorHelmetMakeableBase" Abstract="True">
+    <techLevel>Industrial</techLevel>
+    <recipeMaker>
+      <researchPrerequisite>FlakArmor</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedMetallicTechArmor</unfinishedThingDef>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Humanlike/Apparel/OutlawMask/OutlawMask</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <uiIconScale>1.25</uiIconScale>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <generateCommonality>0.1</generateCommonality>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Mass>1</Mass>
+      <Flammability>0.4</Flammability>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.30</ArmorRating_Heat>
+      <Insulation_Cold>6</Insulation_Cold>
+      <Insulation_Heat>16</Insulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>0.1</SocialImpact>
+      <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      <RangedCooldownFactor>-0.2</RangedCooldownFactor>
+      <ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+    </equippedStatOffsets>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>10</Steel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>FullHead</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Humanlike/Apparel/OutlawMask/OutlawMask</wornGraphicPath>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <tags>
+        <li>Western</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+      <useDeflectMetalEffect>true</useDeflectMetalEffect>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="DV_ApparelOutlawHelmetBase">
+    <defName>DV_Apparel_OutlawHelmet</defName>
+    <label>outlaw mask</label>
+    <description>A tight mask that completely covers the head. The bandana on the front and the tinted goggles obfuscate the wearer's identity completely while providing some tox resistance.\n\nThe mask is often used by bandits and thieves, earning its fame from a mythical space outlaw, said to still be roaming the rim.</description>
+    <apparel>
+      <tags>
+        <li>SpacerMilitary</li>
+      </tags>
+    </apparel>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+    <recipeMaker>
+      <displayPriority>100</displayPriority>
+    </recipeMaker>
+  </ThingDef>
+
+</Defs>
